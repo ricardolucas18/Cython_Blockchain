@@ -1,0 +1,32 @@
+This is a revocation certificate for the OpenPGP key:
+
+pub   rsa2048 2018-11-23 [SCEA]
+      769565CF64DA5A87B89A924A056578E072AE779E
+uid          Lea Jurzyk <RicardoLucas@RicardoLucas>
+
+A revocation certificate is a kind of "kill switch" to publicly
+declare that a key shall not anymore be used.  It is not possible
+to retract such a revocation certificate once it has been published.
+
+Use it to revoke this key in case of a compromise or loss of
+the secret key.  However, if the secret key is still accessible,
+it is better to generate a new revocation certificate and give
+a reason for the revocation.  For details see the description of
+of the gpg command "--generate-revocation" in the GnuPG manual.
+
+To avoid an accidental use of this file, a colon has been inserted
+before the 5 dashes below.  Remove this colon with a text editor
+before importing and publishing this revocation certificate.
+
+:-----BEGIN PGP PUBLIC KEY BLOCK-----
+Comment: This is a revocation certificate
+
+iQE2BCABCAAgFiEEdpVlz2TaWoe4mpJKBWV44HKud54FAlv4QGICHQAACgkQBWV4
+4HKud55GoQf9EQfzqQ5dsSsCJtLV8BkPkt1YaoyJ5AMEBUoeWIBwuDzisJzJcoJS
+zHrpOIVt3fc7pSgqZaTMqqIOvs/bVJrXbXevWPdkd/WXj8AzFKsxlu7SCmvTmaGY
+d50sK5II0aZLRRLC4kgFOAt+dHHggO3TIPvuSseu2qvkAxdS8PTM5wdOcpBFas3B
+1h3sUhP556Pb6BOK+VzYX9wyTgk8yUhF+i7uK87+aLt+QJU9ysgJY8fAiWccZjlD
+hjDaTsv2MZRIBVCWi40idhgTkyMSo0/kp3oH5KQYo5Ho/9w04G6MINOT04cT0eaa
+odZmmdfpI595/5FKk0fDcFmssqOSUxhLzg==
+=oC+x
+-----END PGP PUBLIC KEY BLOCK-----

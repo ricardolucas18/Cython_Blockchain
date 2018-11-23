@@ -1,0 +1,32 @@
+This is a revocation certificate for the OpenPGP key:
+
+pub   rsa2048 2018-11-23 [SCEA]
+      157E170E531BA0024C2D292991CD7A186DD2BA60
+uid          Queenie Lumb <RicardoLucas@RicardoLucas>
+
+A revocation certificate is a kind of "kill switch" to publicly
+declare that a key shall not anymore be used.  It is not possible
+to retract such a revocation certificate once it has been published.
+
+Use it to revoke this key in case of a compromise or loss of
+the secret key.  However, if the secret key is still accessible,
+it is better to generate a new revocation certificate and give
+a reason for the revocation.  For details see the description of
+of the gpg command "--generate-revocation" in the GnuPG manual.
+
+To avoid an accidental use of this file, a colon has been inserted
+before the 5 dashes below.  Remove this colon with a text editor
+before importing and publishing this revocation certificate.
+
+:-----BEGIN PGP PUBLIC KEY BLOCK-----
+Comment: This is a revocation certificate
+
+iQE2BCABCAAgFiEEFX4XDlMboAJMLSkpkc16GG3SumAFAlv4QD0CHQAACgkQkc16
+GG3SumBqBgf+IyRcd2gkOcIdoDjOp02XOqcPGngLjaqFDZTFXQYEekKqT+Bz7Wq3
+LQJYbXefrGAF4RlhjIPHCAydy8fT0OfJ2YBu+5d7W0K2s5r9cDfUonw7SZqcpGs0
+Nf1m6Ue1LDVm7U9YTqlKE/6jFjmXBmyTxIEQisU9ZT5mFGrTLMnMHEWBNEXRNAEO
+/xY7UxRrrwcQjOG0KtFuyuRFuw3LWyVUL7T/Xb7cwV68qNi2eOT7erjxBSS/heny
+UMlqV/KBHpa/89IXv2Z7mJsRjvWPYUExGIcZwHn1PkfGzlGkR/RlPHp+x/9gE141
+CKL8A30nvZ7+4dSJedIwCJuBBMh+RFjDow==
+=zXQZ
+-----END PGP PUBLIC KEY BLOCK-----
